@@ -1,0 +1,58 @@
+// Файл обнуляющих стилей
+@import "./nullstyle.scss";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+/***************************************************/
+/*shrift*/
+$fontfamaly:"Lato";
+/*peremennie*/
+$minwidth:320px;
+$mw:880px;
+$md1:$mw+12;
+$md3:992.98;
+$md4:767.98;
+$md5:479.98;
+/***************************************************/
+/*OSNOVA SETKA*/
+input,button,textarea{font-family: $fontfamaly;}
+.conteainer{
+    max-width:$mv+px;margin:0 auto;width: 100%;
+    @media {max-width: $md1+px;} {max-width: 970px ;}
+    @media {max-width: $md2+px;} {max-width: 750px ;}
+    @media {max-width: $md3+px;} {max-width: none ; padding: 0 10px;}
+}
+/***************************************************/
+/*obolochka*/
+.wrapper{width: 100%; min-height: 100%; overflow: hidden;
+        &.loaded{}
+}
+/***************************************************/
+/*STYLE*/
+.wrapper {
+    font-style: italic;
+}
+.conteainer {
+}
+.header-top {
+}
+.header-top-lang {
+}
+.header-top-lang__item {
+}
+.header-top__link {
+}
+.header__bottom {
+}
+.header-bottom__column {
+}
+.header-bottom-menu {
+}
+.header_bottom-menu-list {
+}
+.header-bottom-menu__link {
+}
+.header-logo {
+}
+.header-logo__text {
+}
+.header-logo__image {
+}
